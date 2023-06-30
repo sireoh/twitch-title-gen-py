@@ -6,6 +6,7 @@ It contains the definition of routes and views for the application.
 
 import emoji
 import random
+import gunicorn
 from flask import Flask
 app = Flask(__name__)
 
